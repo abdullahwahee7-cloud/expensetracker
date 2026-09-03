@@ -1,9 +1,9 @@
 import os
 import calendar
 import copy
-import pro_dashboard
-import pro_categories
-import pro_budgets
+import dashboard as pro_dashboard
+import categories as pro_categories
+import budgets as pro_budgets
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from helpers import convertSQLToDict
