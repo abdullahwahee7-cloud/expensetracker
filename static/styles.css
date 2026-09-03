@@ -1,0 +1,67 @@
+nav .navbar-brand
+{
+    font-size: x-large;
+}
+
+nav .navbar-brand .orange
+{
+    color: #ff9331;;
+}
+
+.navbar.bg-dark {
+ background-color:#0ea0da !important
+}
+
+main .form-control
+{
+    display: inline-block;
+
+    width: auto;
+}
+
+main
+{
+    overflow-x: auto;
+
+    text-align: center;
+}
+
+main img
+{
+    max-width: 100%;
+}
+
+
+#navReports ul {
+    position: fixed;
+    top: 10%;
+    left: 0;
+
+}
+
+#navReports li {
+    display: block;
+    padding: 25px;
+    background: black;
+    margin: 10px;
+}
+
+#section1 h1 {
+    color: white;
+}
+
+.formLabels {
+    font-weight: bold;
+}
+
+.categoryPercent
+{
+    width: 75px;
+}
+
+.card-body-dash{
+    padding-top: 0.5rem;
+    padding-right: 0.2rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.2rem;
+}
