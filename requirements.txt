@@ -1,5 +1,4 @@
 # Financial Tracker runtime dependencies
-# Versions match the Python 3.9 environment used by the current codebase.
 
 # Application framework
 Flask==1.1.2
