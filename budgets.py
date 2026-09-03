@@ -1,6 +1,6 @@
 import os
 import re
-import pro_categories
+import categories as pro_categories
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from datetime import datetime
