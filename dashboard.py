@@ -1,6 +1,6 @@
 import os
 import calendar
-import pro_budgets
+import budgets as pro_budgets
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from helpers import convertSQLToDict
