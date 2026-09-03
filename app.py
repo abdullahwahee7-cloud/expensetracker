@@ -1,10 +1,10 @@
 import os
-import pro_dashboard
-import pro_expenses
-import pro_budgets
-import pro_categories
-import pro_reports
-import pro_account
+import dashboard as pro_dashboard
+import expenses as pro_expenses
+import budgets as pro_budgets
+import categories as pro_categories
+import reports as pro_reports
+import account as pro_account
 from flask import Flask, redirect, render_template, request, session
 from flask_session import Session
 from sqlalchemy import create_engine, text
